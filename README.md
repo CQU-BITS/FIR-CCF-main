@@ -25,6 +25,7 @@ Paper:
 
 # Guide 
 Existing fault diagnosis methods rarely focus on the methodological interpretability and the data scarcity in real industrial scenarios simultaneously. Motivated by this issue, we deeply reexamined the intrinsic characteristics of fault signals and the guiding significance of classical signalprocessing methods for feature enhancement. From the perspective of multiscale modes, this study tailors multiple learnable knowledge-informed finite impulse response (FIR) filtering kernels to extract sensitive modes for explainable feature enhancement. On this foundation, a knowledge-informed FIR-based cross-category filtering (FIR-CCF) framework is further proposed for interpretable small-sample fault diagnosis. With the consideration of the mode complexity, a cross-category filtering strategy is explored to further enhance feature expressions for identifying single state. To be special, this strategy divides a multi-class recognition process into multiple two-class recognition task. A multi-task learning is then presented where multiple binary-class base learners (BCBLearners) that consists of a feature extractor and a two-class classifier is established to seek discriminate mode features for each type of state. Eventually, all feature extractors are fixed and a multi-class classifier is established and to fuse all mode features for high-precision multi-class identification via ensemble learning. As a variant of signal-processing-collaborated deep learning frameworks, the FIR-CCF method fully exploits the strengths of signal-processing methods in interpretability and feature extraction. It can be also foreseen that the signal-processingcollaborated deep learning framework shows enormous potential in interpretable fault diagnosis for knowledge-informed artificial intelligence. 
+
 ![FIR-CCF](https://github.com/CQU-BITS/FIR-CCF-main/tree/main/Figs/GA.png)
 
 # Pakages
@@ -38,13 +39,13 @@ Self-collected datasets
 ### Open source datasets
 * [SEU Bearing Dataset](https://github.com/cathysiyu/Mechanical-datasets)
 * [MCC5-THU gearbox Dataset](https://github.com/liuzy0708/MCC5-THU-Gearbox-Benchmark-Datasets)
-* 
+
 # Acknowledgement
-* [LaplaceAlexNet](https://github.com/HazeDT/WaveletKernelNet)
-* [EWSNet](https://github.com/liguge/EWSNet)
-* [LiConvFormer](https://github.com/yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework)
-* [MTAGN](https://github.com/shane995/MTAGN)
-* 
+* LaplaceAlexNet: [Github](https://github.com/HazeDT/WaveletKernelNet)  [Paper](https://ieeexplore.ieee.org/document/9328876)
+* EWSNet: [Github](https://github.com/liguge/EWSNet)  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0278612523001644?via%3Dihub)
+* LiConvFormer: [Github](https://github.com/yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework)  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423018407)
+* MTAGN: [Github](https://github.com/shane995/MTAGN)  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0278612521002521)
+
 # Related works
 * [R. Liu, X. Ding*, et al., “Knowledge-informed FIR-based cross-category filtering framework for interpretable machinery fault diagnosis under small samples, Reliability Engineering & System Safety, 2024](https://www.sciencedirect.com/science/article/pii/S0951832024006811).
 * [R. Liu, X. Ding*, et al., “An Interpretable Multiplication-Convolution Network for Equipment Intelligent Edge Diagnosis, IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2024](https://ieeexplore.ieee.org/abstract/document/10443049).
