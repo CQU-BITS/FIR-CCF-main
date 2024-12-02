@@ -6,16 +6,15 @@ The implementation of knowledge-informed FIR-based Cross-category Filtering (FIR
 Paper:
 ```
 @article{knowledge-informed FIR-CCF,
-  title={Knowledge-informed FIR-based cross-category filtering framework for
-interpretable machinery fault diagnosis under small samples},
-  author = {Rui Liu and Xiaoxi Ding and Shenglan Liu and Hebin Zheng and Yuanyuan Xu and Yimin Shao},
+  title={Knowledge-informed FIR-based cross-category filtering framework for interpretable machinery fault diagnosis under small samples},
+  author={Rui Liu and Xiaoxi Ding and Shenglan Liu and Hebin Zheng and Yuanyuan Xu and Yimin Shao},
   journal={Reliability Engineering and System Safety},
-  volume = {232},
-  pages = {120860},
-  year = {2024},
-  issn = {0957-4174},
-  doi = {10.1016/j.eswa.2023.120860},
-  url = {https://www.sciencedirect.com/science/article/pii/S0957417423013623},
+  volume={232},
+  pages={120860},
+  year={2024},
+  issn={0957-4174},
+  doi={10.1016/j.eswa.2023.120860},
+  url={https://www.sciencedirect.com/science/article/pii/S0957417423013623},
 }
 ```
 # Requirements
