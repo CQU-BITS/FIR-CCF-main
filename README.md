@@ -1,6 +1,6 @@
 # FIR-CCF-main
 The implementation of knowledge-informed FIR-based Cross-category Filtering (FIR-CCF) framework in Pytorch.
-## [knowledge-informed FIR-based Cross-category Filtering (FIR-CCF) framework for Interpretable Machinery Fault Diagnosis under Small samples](https://ieeexplore.ieee.org/document/10443049](https://www.sciencedirect.com/science/article/abs/pii/S0951832024006811)
+## [knowledge-informed FIR-based Cross-category Filtering (FIR-CCF) framework for Interpretable Machinery Fault Diagnosis under Small samples](https://www.sciencedirect.com/science/article/abs/pii/S0951832024006811)
 
 # Implementation of the paper:
 Paper:
